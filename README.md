@@ -1,16 +1,16 @@
-# 🧬 GeneFlow: Human Cell Expression Analysis Platform
+# GeneFlow: Human Cell Expression Analysis Platform
 
 A comprehensive, production-ready toolkit for analyzing gene expression data from human osteosarcoma cells (GSE1000 dataset). This platform provides a complete pipeline from raw microarray data to publication-ready results with integrated machine learning classification.
 
-## ✨ Features
+## Features
 
-- **🔬 Comprehensive Analysis**: Process 22K+ genes with advanced statistical methods
-- **🤖 Machine Learning**: Automated classification with multiple algorithms
-- **📊 Interactive Dashboard**: Streamlit-powered web interface for real-time exploration
-- **📈 Publication-Ready**: High-quality plots and formatted results
-- **🎓 Educational**: Step-by-step analysis options for learning
+- ** Comprehensive Analysis**: Process 22K+ genes with advanced statistical methods
+- ** Machine Learning**: Automated classification with multiple algorithms
+- ** Interactive Dashboard**: Streamlit-powered web interface for real-time exploration
+- ** Publication-Ready**: High-quality plots and formatted results
+- ** Educational**: Step-by-step analysis options for learning
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -36,7 +36,7 @@ python simple_analysis_clean.py
 streamlit run gene_expression_dashboard.py
 ```
 
-## 📊 What This Platform Does
+##  What This Platform Does
 
 | Feature | Description |
 |---------|-------------|
@@ -46,7 +46,7 @@ streamlit run gene_expression_dashboard.py
 | **Predicts** | Treatment groups using machine learning (Random Forest, SVM, etc.) |
 | **Generates** | Publication-ready plots, data exports, and comprehensive analysis reports |
 
-## 🗂️ Dataset Information
+##  Dataset Information
 
 - **Study**: GSE1000 - Osteosarcoma TE85 cell responses to amino acid surfaces
 - **Platform**: Affymetrix Human Genome U133A Array
@@ -54,56 +54,56 @@ streamlit run gene_expression_dashboard.py
 - **Sample Size**: 10 biological samples
 - **Applications**: Biomaterial design, cancer research, surface engineering
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 crops-for-life/
-├── 📁 dataset/
+├──  dataset/
 │   └── GSE1000_series_matrix.txt      # Raw microarray data
-├── 📁 results/                        # Generated outputs and visualizations
-├── 🐍 gene_expression_analyzer_clean.py      # Core analysis engine
-├── 🐍 human_cell_analysis_clean.py           # Full automated pipeline
-├── 🐍 simple_analysis_clean.py               # Educational step-by-step version
-├── 🐍 gene_expression_dashboard.py           # Interactive Streamlit dashboard
-├── 📄 requirements.txt                       # Python dependencies
-└── 📖 README.md                              # This file
+├──  results/                        # Generated outputs and visualizations
+├──  gene_expression_analyzer_clean.py      # Core analysis engine
+├──  human_cell_analysis_clean.py           # Full automated pipeline
+├──  simple_analysis_clean.py               # Educational step-by-step version
+├──  gene_expression_dashboard.py           # Interactive Streamlit dashboard
+├──  requirements.txt                       # Python dependencies
+└──  README.md                              # This file
 ```
 
 ## 🔬 Analysis Pipeline
 
 Our comprehensive analysis follows these steps:
 
-1. **📥 Data Loading**
+1. ** Data Loading**
    - Parse GEO series matrix format
    - Extract 22K+ gene expression values
    - Validate data integrity
 
-2. **🔧 Preprocessing**
+2. ** Preprocessing**
    - Log2 transformation for normalization
    - Filter low-expression genes
    - Handle missing values
 
-3. **✅ Quality Control**
+3. ** Quality Control**
    - Principal Component Analysis (PCA)
    - Sample correlation analysis
    - Outlier detection and visualization
 
-4. **🧮 Differential Expression**
+4. ** Differential Expression**
    - Statistical hypothesis testing
    - Multiple testing correction (FDR)
    - Volcano plot generation
 
-5. **🤖 Machine Learning**
+5. ** Machine Learning**
    - Train multiple classifiers
    - Cross-validation assessment
    - Feature importance analysis
 
-6. **📊 Results Generation**
+6. ** Results Generation**
    - Export processed data to CSV
    - Generate publication-quality plots
    - Create comprehensive summary reports
 
-## 📈 Expected Results
+##  Expected Results
 
 | Metric | Expected Range |
 |--------|----------------|
@@ -112,7 +112,7 @@ Our comprehensive analysis follows these steps:
 | **Generated Outputs** | 8+ publication-ready plots and data files |
 | **Processing Time** | 2-5 minutes for complete analysis |
 
-## 💻 Code Example
+## Code Example
 
 ```python
 from gene_expression_analyzer_clean import GeneExpressionAnalyzer
@@ -143,7 +143,7 @@ analyzer.generate_quality_plots()
 analyzer.create_volcano_plot(de_results)
 ```
 
-## 🛠️ Requirements
+## Requirements
 
 ### System Requirements
 - **Python**: 3.8 or higher
@@ -162,13 +162,13 @@ analyzer.create_volcano_plot(de_results)
 pip install -r requirements.txt  # Installs all required packages
 ```
 
-## 🎯 Applications
+## Applications
 
 ### Research Areas
-- **🔬 Biomedical Research**: Drug discovery, cancer biology, biomarker identification
-- **🧪 Biomaterial Development**: Surface engineering, cell-material interactions
-- **🎓 Education**: Bioinformatics training, machine learning with biological data
-- **🏭 Quality Control**: Manufacturing consistency, experimental validation
+- ** Biomedical Research**: Drug discovery, cancer biology, biomarker identification
+- ** Biomaterial Development**: Surface engineering, cell-material interactions
+- ** Education**: Bioinformatics training, machine learning with biological data
+- ** Quality Control**: Manufacturing consistency, experimental validation
 
 ### Use Cases
 - Compare gene expression between treatment conditions
@@ -176,7 +176,7 @@ pip install -r requirements.txt  # Installs all required packages
 - Validate experimental hypotheses
 - Train students in computational biology
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -213,7 +213,7 @@ The analysis generates several types of output files:
 - `analysis_summary.txt` - Complete analysis summary
 - `summary_simple.txt` - Key findings and statistics
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please feel free to:
 - Report bugs or issues
@@ -221,7 +221,7 @@ We welcome contributions! Please feel free to:
 - Submit pull requests
 - Improve documentation
 
-## 📜 License
+## License
 
 This project is available for research and educational purposes. Please cite appropriately if used in publications.
 
