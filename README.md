@@ -227,4 +227,4 @@ This project is available for research and educational purposes. Please cite app
 
 ---
 
-**🧬 GeneFlow** - Making professional gene expression analysis accessible to everyone 📊✨
+** GeneFlow** - Making professional gene expression analysis accessible to everyone
