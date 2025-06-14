@@ -1,0 +1,11 @@
+index,condition,surface_type,time_point,treatment_group
+GSM15791,Glutamic Acid Conjugated Surface 32 hours,Glutamic_Acid,32h,Glutamic_Acid_32h
+GSM15787,Glutamic Acid Surface 6 hours,Glutamic_Acid,6h,Glutamic_Acid_6h
+GSM15788,Serine Surface 6 hours,Serine,6h,Serine_6h
+GSM15789,Amino terminated Surface 6 hours,Amino_Terminated,6h,Amino_Terminated_6h
+GSM15785,Aspartic Acid Conjugated Surface 6 hours,Aspartic_Acid,6h,Aspartic_Acid_6h
+GSM15792,Serine Conjugated Surface 32 hours,Serine,32h,Serine_32h
+GSM15790,Aspartic Acid Conjugated Surface 32 hours,Aspartic_Acid,32h,Aspartic_Acid_32h
+GSM15794,Amino Terminated surface 32 hours,Amino_Terminated,32h,Amino_Terminated_32h
+GSM15795,Tissue Culture Polystyrene 6 hours,Control_Polystyrene,6h,Control_Polystyrene_6h
+GSM15786,Tissue Culture Polystyrene 32 hours,Control_Polystyrene,32h,Control_Polystyrene_32h

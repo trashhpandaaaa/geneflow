@@ -1,0 +1,41 @@
+# Human Cell Gene Expression Analysis System
+# Requirements for analyzing GSE1000 osteosarcoma cell study
+
+# Core data science libraries
+numpy>=1.21.0
+pandas>=1.3.0
+# Machine learning and statistics
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+statsmodels>=0.13.0
+scipy>=1.7.0
+
+# Bioinformatics and genomics
+biopython>=1.79
+
+# Interactive analysis and visualization
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+dash>=2.0.0
+streamlit>=1.0.0
+
+# Gene expression analysis specific
+networkx>=2.6.0  # For gene network analysis
+lifelines>=0.27.0  # For survival analysis if needed
+
+# Explainable AI
+shap>=0.40.0
+lime>=0.2.0
+
+# Data handling
+openpyxl>=3.0.0  # For Excel export
+joblib>=1.1.0
+
+# Development tools
+pytest>=6.0.0
+black>=21.0.0
+black>=21.0.0
